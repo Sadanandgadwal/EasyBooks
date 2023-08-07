@@ -35,6 +35,7 @@ const Bookpage = () => {
   return (
     <>
       <Navbar filterItem={filterItem} menuList={menuList} />
+      {setMenuList}
       <MenuCard menuData={menuData} />
     </>
   );
